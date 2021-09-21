@@ -23,26 +23,11 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="blps@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="blps@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="blps@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="blps: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="blps@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="blps: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lab1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +35,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -72,6 +60,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632183404179</updated>
       <workItem from="1632183407743" duration="6986000" />
-      <workItem from="1632192532277" duration="1107000" />
+      <workItem from="1632192532277" duration="2619000" />
     </task>
     <servers />
   </component>
@@ -122,10 +111,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="588" y="214" width="800" height="677" key="#Assign_Data_Sources" timestamp="1632193490841">
+    <state x="588" y="214" width="800" height="677" key="#Assign_Data_Sources" timestamp="1632198002211">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="214" width="800" height="677" key="#Assign_Data_Sources/67.27.1853.1053@67.27.1853.1053" timestamp="1632193490841" />
+    <state x="588" y="214" width="800" height="677" key="#Assign_Data_Sources/67.27.1853.1053@67.27.1853.1053" timestamp="1632198002211" />
     <state x="588" y="214" width="847" height="677" key="#Project_Structure" timestamp="1632183462946">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -138,42 +127,46 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1632189645187" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1632193622333">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1632198178838">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622333" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1632193622332">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1632198178838" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1632198148244">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622332" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1632193622332">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148244" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1632198148244">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622331" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1632193622332">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148244" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1632198148243">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622332" />
-    <state width="1807" height="278" key="GridCell.Tab.1.bottom" timestamp="1632193622334">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148243" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1632198148244">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622334" />
-    <state width="1807" height="278" key="GridCell.Tab.1.center" timestamp="1632193622333">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148244" />
+    <state width="1807" height="278" key="GridCell.Tab.1.bottom" timestamp="1632198148245">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622333" />
-    <state width="1807" height="278" key="GridCell.Tab.1.left" timestamp="1632193622333">
+    <state width="1807" height="278" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148245" />
+    <state width="1807" height="278" key="GridCell.Tab.1.center" timestamp="1632198148245">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622333" />
-    <state width="1807" height="278" key="GridCell.Tab.1.right" timestamp="1632193622333">
+    <state width="1807" height="278" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148245" />
+    <state width="1807" height="278" key="GridCell.Tab.1.left" timestamp="1632198148245">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1632193622333" />
-    <state x="482" y="187" key="SettingsEditor" timestamp="1632192513375">
+    <state width="1807" height="278" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148244" />
+    <state width="1807" height="278" key="GridCell.Tab.1.right" timestamp="1632198148245">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1632192513375" />
+    <state width="1807" height="278" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1632198148245" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1632198341944">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1632198341944" />
     <state x="845" y="318" width="287" height="468" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1632188327763">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
