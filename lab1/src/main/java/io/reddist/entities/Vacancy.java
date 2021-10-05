@@ -15,7 +15,6 @@ public class Vacancy {
     private long vacancyId;
 
     @OneToMany(mappedBy = "vacancy", fetch = FetchType.EAGER) private List<JobApply> jobApplies;
-
     private String description;
 
 }

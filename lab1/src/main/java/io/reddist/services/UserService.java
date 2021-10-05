@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailSendException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import io.reddist.entities.User;
 import io.reddist.repositories.UserRepo;
@@ -57,5 +58,6 @@ import java.util.stream.StreamSupport;
 
     public boolean exist(String email) { return repo.existsByEmail(email); }
 
-    @Transactional public void save(User u) { this.repo.save(u); }
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void save(User u) { this.repo.save(u); }
 }

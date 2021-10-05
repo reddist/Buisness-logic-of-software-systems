@@ -16,7 +16,7 @@
     <database id="4" parent="1" name="blps">
       <ObjectId>100500</ObjectId>
       <Owner>aleksey</Owner>
-      <IntrospectionStateNumber>5465</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5522</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="5" parent="1" name="postgres">
@@ -82,7 +82,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>275</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>5466</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5523</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="19" parent="4" name="heap">
@@ -149,96 +149,96 @@
       <SchemaId>11</SchemaId>
     </extension>
     <sequence id="27" parent="18" name="cvs_id_seq">
-      <ObjectId>100552</ObjectId>
-      <StateNumber>5451</StateNumber>
+      <ObjectId>100655</ObjectId>
+      <StateNumber>5505</StateNumber>
       <Owner>aleksey</Owner>
       <SequenceIdentity>1+50</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="28" parent="18" name="job_applies_id_seq">
-      <ObjectId>100554</ObjectId>
-      <StateNumber>5452</StateNumber>
+      <ObjectId>100657</ObjectId>
+      <StateNumber>5506</StateNumber>
       <Owner>aleksey</Owner>
       <SequenceIdentity>1+50</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="29" parent="18" name="users_id_seq">
-      <ObjectId>100556</ObjectId>
-      <StateNumber>5453</StateNumber>
+      <ObjectId>100659</ObjectId>
+      <StateNumber>5507</StateNumber>
       <Owner>aleksey</Owner>
       <SequenceIdentity>1+50</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <sequence id="30" parent="18" name="vacancies_id_seq">
-      <ObjectId>100558</ObjectId>
-      <StateNumber>5454</StateNumber>
+      <ObjectId>100661</ObjectId>
+      <StateNumber>5508</StateNumber>
       <Owner>aleksey</Owner>
       <SequenceIdentity>1+50</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
     <table id="31" parent="18" name="cvs">
-      <ObjectId>100560</ObjectId>
+      <ObjectId>100663</ObjectId>
       <Owner>aleksey</Owner>
-      <StateNumber>5459</StateNumber>
+      <StateNumber>5513</StateNumber>
     </table>
     <table id="32" parent="18" name="job_applies">
-      <ObjectId>100565</ObjectId>
+      <ObjectId>100668</ObjectId>
       <Owner>aleksey</Owner>
-      <StateNumber>5460</StateNumber>
+      <StateNumber>5514</StateNumber>
     </table>
     <table id="33" parent="18" name="users">
-      <ObjectId>100570</ObjectId>
+      <ObjectId>100673</ObjectId>
       <Owner>aleksey</Owner>
-      <StateNumber>5459</StateNumber>
+      <StateNumber>5513</StateNumber>
     </table>
     <table id="34" parent="18" name="vacancies">
-      <ObjectId>100578</ObjectId>
+      <ObjectId>100681</ObjectId>
       <Owner>aleksey</Owner>
-      <StateNumber>5462</StateNumber>
+      <StateNumber>5516</StateNumber>
     </table>
     <column id="35" parent="31" name="cv_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5455</StateNumber>
+      <StateNumber>5509</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="36" parent="31" name="description">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>5455</StateNumber>
+      <StateNumber>5509</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="37" parent="31" name="user_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5455</StateNumber>
+      <StateNumber>5509</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="38" parent="31" name="cvs_pkey">
-      <ObjectId>100563</ObjectId>
-      <StateNumber>5455</StateNumber>
+      <ObjectId>100666</ObjectId>
+      <StateNumber>5509</StateNumber>
       <ColNames>cv_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="39" parent="31" name="cvs_pkey">
-      <ObjectId>100564</ObjectId>
-      <StateNumber>5455</StateNumber>
+      <ObjectId>100667</ObjectId>
+      <StateNumber>5509</StateNumber>
       <ColNames>cv_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>cvs_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="40" parent="31" name="fk8dmd6n9rd1bjnsae495lknrwj">
-      <ObjectId>100583</ObjectId>
-      <StateNumber>5459</StateNumber>
+      <ObjectId>100686</ObjectId>
+      <StateNumber>5513</StateNumber>
       <ColNames>user_id</ColNames>
-      <RefTableId>100570</RefTableId>
+      <RefTableId>100673</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>users</RefTableName>
       <RefKeyName>users_pkey</RefKeyName>
@@ -248,69 +248,69 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5456</StateNumber>
+      <StateNumber>5510</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="42" parent="32" name="cv_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5456</StateNumber>
+      <StateNumber>5510</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="43" parent="32" name="user_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5456</StateNumber>
+      <StateNumber>5510</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="44" parent="32" name="vacancy_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5456</StateNumber>
+      <StateNumber>5510</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="45" parent="32" name="job_applies_pkey">
-      <ObjectId>100568</ObjectId>
-      <StateNumber>5456</StateNumber>
+      <ObjectId>100671</ObjectId>
+      <StateNumber>5510</StateNumber>
       <ColNames>job_apply_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="46" parent="32" name="job_applies_pkey">
-      <ObjectId>100569</ObjectId>
-      <StateNumber>5456</StateNumber>
+      <ObjectId>100672</ObjectId>
+      <StateNumber>5510</StateNumber>
       <ColNames>job_apply_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>job_applies_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="47" parent="32" name="fkrkp1lve1dh6ep3edunen5xxhm">
-      <ObjectId>100588</ObjectId>
-      <StateNumber>5460</StateNumber>
+      <ObjectId>100691</ObjectId>
+      <StateNumber>5514</StateNumber>
       <ColNames>cv_id</ColNames>
-      <RefTableId>100560</RefTableId>
+      <RefTableId>100663</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>cvs</RefTableName>
       <RefKeyName>cvs_pkey</RefKeyName>
       <RefColNames>cv_id</RefColNames>
     </foreign-key>
     <foreign-key id="48" parent="32" name="fks4v6mif951s7q6pg15yi6mblj">
-      <ObjectId>100593</ObjectId>
-      <StateNumber>5461</StateNumber>
+      <ObjectId>100696</ObjectId>
+      <StateNumber>5515</StateNumber>
       <ColNames>user_id</ColNames>
-      <RefTableId>100570</RefTableId>
+      <RefTableId>100673</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>users</RefTableName>
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
     <foreign-key id="49" parent="32" name="fkn9e57ie1w6xgvci7x40tb31a7">
-      <ObjectId>100598</ObjectId>
-      <StateNumber>5462</StateNumber>
+      <ObjectId>100701</ObjectId>
+      <StateNumber>5516</StateNumber>
       <ColNames>vacancy_id</ColNames>
-      <RefTableId>100578</RefTableId>
+      <RefTableId>100681</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>vacancies</RefTableName>
       <RefKeyName>vacancies_pkey</RefKeyName>
@@ -320,37 +320,37 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5457</StateNumber>
+      <StateNumber>5511</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="51" parent="33" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>5457</StateNumber>
+      <StateNumber>5511</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="52" parent="33" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>5457</StateNumber>
+      <StateNumber>5511</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="53" parent="33" name="password">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>5457</StateNumber>
+      <StateNumber>5511</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="54" parent="33" name="users_pkey">
-      <ObjectId>100576</ObjectId>
-      <StateNumber>5457</StateNumber>
+      <ObjectId>100679</ObjectId>
+      <StateNumber>5511</StateNumber>
       <ColNames>user_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="55" parent="33" name="users_pkey">
-      <ObjectId>100577</ObjectId>
-      <StateNumber>5457</StateNumber>
+      <ObjectId>100680</ObjectId>
+      <StateNumber>5511</StateNumber>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
@@ -359,25 +359,25 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5458</StateNumber>
+      <StateNumber>5512</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="57" parent="34" name="description">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>5458</StateNumber>
+      <StateNumber>5512</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="58" parent="34" name="vacancies_pkey">
-      <ObjectId>100581</ObjectId>
-      <StateNumber>5458</StateNumber>
+      <ObjectId>100684</ObjectId>
+      <StateNumber>5512</StateNumber>
       <ColNames>vacancy_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="59" parent="34" name="vacancies_pkey">
-      <ObjectId>100582</ObjectId>
-      <StateNumber>5458</StateNumber>
+      <ObjectId>100685</ObjectId>
+      <StateNumber>5512</StateNumber>
       <ColNames>vacancy_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>vacancies_pkey</UnderlyingIndexName>

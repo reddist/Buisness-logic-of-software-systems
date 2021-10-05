@@ -58,5 +58,7 @@ import java.util.function.Function;
         return claimsResolver.apply(Jwts.parser().setSigningKey(KEY).parseClaimsJws(token).getBody());
     }
 
-    public String decode(HttpServletRequest req) { return this.getUsername(this.resolveToken(req)); }
+    public String decode(HttpServletRequest req) {
+        String token = this.resolveToken(req);
+        return token == null? null: this.getUsername(token); }
 }

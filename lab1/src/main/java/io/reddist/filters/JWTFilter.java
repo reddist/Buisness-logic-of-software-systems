@@ -19,6 +19,9 @@ public class JWTFilter extends GenericFilterBean {
 
     @Override public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         String token = jwtUtil.resolveToken((HttpServletRequest) request);
+        System.out.println("--------------------------------------------------------------------------");
+        System.out.println(token);
+        System.out.println("--------------------------------------------------------------------------");
         if (token != null && jwtUtil.validateToken(token))
             Optional.ofNullable(jwtUtil.getAuthentication(token)).ifPresent(auth -> SecurityContextHolder.getContext().setAuthentication(auth));
         chain.doFilter(request, response);

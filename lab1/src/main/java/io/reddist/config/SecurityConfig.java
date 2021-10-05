@@ -27,7 +27,9 @@ import io.reddist.security.JWTUtil;
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.ALWAYS)
                 .and().authorizeRequests()
                 .antMatchers("/user/**").permitAll()
-                .antMatchers("/advert/**").permitAll()
+                .antMatchers("/vacancies/**").permitAll()
+                .antMatchers("/job_applies/**").permitAll()
+                .antMatchers("/cvs/**").permitAll()
                 .antMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
                 .anyRequest().authenticated()
                 .and().apply(new SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity>() {

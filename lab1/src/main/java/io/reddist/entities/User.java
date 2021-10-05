@@ -14,7 +14,13 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-@Data @Entity @Table(name = "users") @JsonSerialize(using = UserSerializer.class)
+@Data
+@Entity
+@Table(
+    name = "users",
+    uniqueConstraints = @UniqueConstraint(columnNames={"email"})
+)
+@JsonSerialize(using = UserSerializer.class)
 public class User implements Serializable, UserDetails {
 
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq_gen")
@@ -51,6 +57,7 @@ public class User implements Serializable, UserDetails {
         return Collections.singletonList(new SimpleGrantedAuthority("User"));
     }
 
+    @Nullable
     @Override
     public String getPassword() {
         return password;
